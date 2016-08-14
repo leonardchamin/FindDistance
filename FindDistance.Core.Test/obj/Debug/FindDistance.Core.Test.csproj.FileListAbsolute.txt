@@ -7,3 +7,12 @@ C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Core.Test\bin\Debug\Mic
 C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Core.Test\obj\Debug\FindDistance.Core.Test.csprojResolveAssemblyReference.cache
 C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Core.Test\obj\Debug\FindDistance.Core.Test.dll
 C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Core.Test\obj\Debug\FindDistance.Core.Test.pdb
+C:\GitHub\FindDistance\FindDistance.Core.Test\bin\Debug\FindDistance.Core.Test.dll
+C:\GitHub\FindDistance\FindDistance.Core.Test\bin\Debug\FindDistance.Core.Test.pdb
+C:\GitHub\FindDistance\FindDistance.Core.Test\bin\Debug\FindDistance.Core.dll
+C:\GitHub\FindDistance\FindDistance.Core.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GitHub\FindDistance\FindDistance.Core.Test\bin\Debug\FindDistance.Core.pdb
+C:\GitHub\FindDistance\FindDistance.Core.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\GitHub\FindDistance\FindDistance.Core.Test\obj\Debug\FindDistance.Core.Test.csprojResolveAssemblyReference.cache
+C:\GitHub\FindDistance\FindDistance.Core.Test\obj\Debug\FindDistance.Core.Test.dll
+C:\GitHub\FindDistance\FindDistance.Core.Test\obj\Debug\FindDistance.Core.Test.pdb

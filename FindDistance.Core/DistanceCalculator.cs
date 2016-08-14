@@ -155,8 +155,7 @@ namespace FindDistance.Core
             {
                 string[] routes = new string[] { "AB5", "BC4", "CD8", "DC8", "DE6", "AD5", "CE2", "EB3", "AE7" };
                 //string[] routes = new string[] { "BC4", "CD8", "DE6", "EC2", "EB3" };
-                bool validateuserRquestedStops = false;
-
+                
                 List<RouteInfo> routeList = new List<RouteInfo>();
                 List<string> possibleRoutes = new List<string>();
                 List<RouteInfo> possibleRouteInfo = new List<RouteInfo>();
@@ -181,10 +180,13 @@ namespace FindDistance.Core
                     // maximumStop set to 0 when we look for shortest path
                     if (maximumStop != 0)
                     {
-                        validateuserRquestedStops = true;
                         if (routeArr.Length <= maximumStop)
                         {
                             validRoutesArr = routeArr;
+                        }
+                        else
+                        {
+                            continue;
                         }
                     }
                     else

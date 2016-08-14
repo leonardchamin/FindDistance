@@ -30,7 +30,7 @@ routes.controller('routesPlanController', ['$scope', '$http', '$templateCache', 
     vm.GetUserJourneyPlans = function () {
         routesPlanService.GetJourneyPlans(vm.routeModel.startPoint, vm.routeModel.endPoint, vm.routeModel.numberOfMaxStops)
             .then(function (response) {
-
+                vm.routeList = [];
                 angular.forEach(response.data, function (route) {
                     vm.routeList.push(route);
                 });
