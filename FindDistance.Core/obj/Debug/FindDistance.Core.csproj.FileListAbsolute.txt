@@ -1,0 +1,5 @@
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Core\bin\Debug\FindDistance.Core.dll
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Core\bin\Debug\FindDistance.Core.pdb
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Core\obj\Debug\FindDistance.Core.dll
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Core\obj\Debug\FindDistance.Core.pdb
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Core\obj\Debug\FindDistance.Core.csprojResolveAssemblyReference.cache

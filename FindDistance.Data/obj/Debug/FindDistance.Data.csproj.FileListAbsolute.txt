@@ -1,0 +1,11 @@
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\bin\Debug\FindDistance.Data.dll.config
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\bin\Debug\FindDistance.Data.dll
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\bin\Debug\FindDistance.Data.pdb
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\bin\Debug\EntityFramework.dll
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\bin\Debug\EntityFramework.xml
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\obj\Debug\FindDistance.Data.dll
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\obj\Debug\FindDistance.Data.pdb
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\obj\Debug\FindDistance.Data.Migrations.InitialCreate.resources
+C:\InterViewsTests\FrogParking\FindDistance\FindDistance.Data\obj\Debug\FindDistance.Data.csproj.GenerateResource.Cache

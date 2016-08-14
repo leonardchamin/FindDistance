@@ -1,0 +1,87 @@
+﻿@using FindDistance.Utilities
+@model FindDistance.ViewModels.RoutePlannerViewModel
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Angular SPA -->
+<div ng-app="FrogParking">
+
+    <div ng-controller="routesPlanController" class="col-sm-12">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Enter your stops in your journey</h2>
+                <div class="form-group">
+                    <label>Enter your route</label>
+                    <input type="text" class="form-control" placeholder="Enter your stops as Eg:A-B-C-E" ng-model="routeModel.routePlan" /> <br />
+                    <input type="button" class="pull-left btn btn-primary" value="Get the distances" ng-click="GetDistanceForRoutes()"> <br />
+                    <div class="col-sm-12">
+                        {{distanceForRoutes}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Plan your journey</h2>
+                <div class="form-group">
+                    <label>Enter number of stops</label>
+                    <input type="number" class="form-control" placeholder="Enter the number of stops you need" ng-model="routeModel.numberOfMaxStops" /> <br />
+                    <label>Enter the Start Point</label>
+                    <input type="text" class="form-control" placeholder="Start point" ng-model="routeModel.startPoint" /> <br />
+                    <label>Enter the End Point</label>
+                    <input type="text" class="form-control" placeholder="End point" ng-model="routeModel.endPoint" /> <br />
+
+                    <input type="button" class="pull-left btn btn-primary" value="Get the distances" ng-click="GetUserJourneyPlans()"> <br />
+                    <div class="col-sm-12">
+                        <ul>
+                            <li ng-repeat="route in routeList">
+                                {{route.Route}} :&nbsp; {{route.Distance}}
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Plan your shortest journey</h2>
+                <div class="form-group">
+                    <label>Enter your route</label>
+                    <input type="text" class="form-control" placeholder="Enter your stops as Eg:A-B-C-E" ng-model="routeModel.routePlanShortest" /> <br />
+                    <input type="button" class="pull-left btn btn-primary" value="Get the distance" ng-click="GetShortestJourneyPlan()"> <br />
+                    <div class="col-sm-12">
+                        {{distanceForShortestRoute}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--
+//
+If I had to do it in Razor syntax this is how I write. But I prefer not to mix up razor and angular.
+Because If we did it that like that, as I read we can't take much advantage on angular ( I might wrong :) )
+
+<div ng-app="FrogParking">
+    <div ng-controller="routesPlanController">
+        @using (Html.BeginForm("GetDistances", "Home"))
+        {
+            @Html.LabelFor(x => x.NumberOfMaxStops)
+            @Html.TextBoxFor(x => x.NumberOfMaxStops, new { ng_model = "routeModel.routePlan", key_press = "" })
+
+
+            @*<input type="submit" value="Submit" />*@
+            <input type="button" value="Submit" ng-click="save()" />
+        }
+
+    </div>
+</div>
+    -->
