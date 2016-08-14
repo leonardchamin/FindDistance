@@ -17,7 +17,7 @@ routes.controller('routesPlanController', ['$scope', '$http', '$templateCache', 
     vm.distanceForShortestRoute = {};
     vm.distanceForShortestRoute = "";
 
-    vm.GetDistanceForRoutes = function (stopsForRoutePlan) {
+    vm.GetDistanceForRoutes = function () {
         routesPlanService.GetDistanceForRoutes(vm.routeModel.routePlan)
             .then(function (response) {
                 vm.distanceForRoutes = response.data;
